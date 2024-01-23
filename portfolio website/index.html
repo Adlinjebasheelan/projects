@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - AJ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/080ba34eb1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo-1.png" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Adlin Jebasheelan</span> <br> From KanayaKumari</h1>
+        </div>
+
+    </div>
+
+</div>
+<!---------------about-------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG_2.jpeg" alt="">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>To Work in a Challenging Environment that Provides Generous Opportunities for 
+                    Learning and Career Growth.Recent Computer Application Graduate Eager to Contribute
+                    to Software Development in a Dynamic Company Environment.Collaborate and Build 
+                    Relationship with other Development Team Members. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Python Programming</span></li>
+                            <li><span>SQL Programming</span></li>
+                            <li><span>Web Development</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Education">
+                        <ul>
+                            <li><span>2022</span><br>Diploma in Software Engineering at Networkz System</li>
+                            <li><span>2022-2024</span><br>MCA from S.T Hindu College Nagercoil.</li>
+                            <li><span>2018-2021</span><br>BCA from st.jerome's college Nagercoil.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!---------services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-person"></i>
+                <h2>Portfolio-Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Incidunt qui, laboriosam repellendus perferendis sapiente ducimus, 
+                    ex accusantium corrupti esse quae maxime quaerat porro nulla ad error necessitatibus beatae.
+                     Autem, voluptatem.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Incidunt qui, laboriosam repellendus perferendis sapiente ducimus, 
+                    ex accusantium corrupti esse quae maxime quaerat porro nulla ad error necessitatibus beatae.
+                     Autem, voluptatem.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-building-columns"></i>
+                <h2>College project Ideas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Incidunt qui, laboriosam repellendus perferendis sapiente ducimus, 
+                    ex accusantium corrupti esse quae maxime quaerat porro nulla ad error necessitatibus beatae.
+                     Autem, voluptatem.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!---------portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/car.webp" alt="">
+                <div class="layer">
+                    <h3>Car Showroom website</h3>
+                    <p>Simple User Experience Website for Checking Lastest
+                        Updates on supercars.
+                    </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Cats_Vs._Dog.webp" alt="">
+                <div class="layer">
+                    <h3>Dog vs Cat Prediction</h3>
+                    <p>The Dog vs Cat Dataset is a Standard Computer Vision Dataset That Ivolves
+                        Classifying Photo as Either Containing a Dog or Cat.
+                    </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/voice.webp" alt="">
+                <div class="layer">
+                    <h3>Voice Assistant</h3>
+                    <p>A voice assistant is a digital assistant that uses voice recognition, 
+                        language processing algorithms, and voice synthesis to listen to specific voice commands and return 
+                        relevant information or perform specific functions as requested by the user.
+                    </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+</div>
+
+<!---------contact---->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>adlinaj003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6374036619</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/AJ-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> AJ.Made with by Adlin Jebasheelan</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right='0';
+    }
+    function closemenu(){
+        sidemeu.style.right='-200px';
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzcxbkEj_lz6SAnAVGbjibEkigrezIhpnx6mGtyZCEop83qSyrY6LSURaKNMJ1xXnrt/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const MSG= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            MSG.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
